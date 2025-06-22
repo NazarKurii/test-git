@@ -22,6 +22,7 @@ func main() {
 	t.setName("name")
 	fmt.Println(t)
 }
+<<<<<<< HEAD
 
 func add() {}
 
@@ -39,7 +40,6 @@ func loh2() {
 
 }
 
-<<<<<<< HEAD
 type dateOfBirth struct {
 	time.Time
 }
@@ -55,12 +55,3 @@ func (dob *dateOfBirth) UnmarshalJSON(b []byte) error {
 	}
 	dob.Time = t
 	return nil
-=======
-func loh3() {
-
-}
-
-func different() {
-
->>>>>>> 87438fa (More commit 3)
-}
